@@ -12,8 +12,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Elephant e = new Elephant(15, 1200);
+        e = (Elephant) feed(e);
+
         Animal a = new Elephant(15, 80);
         
 
+    }
+
+    Animal feed(Animal animalToBeFeed){
+        return animalToBeFeed;
     }
 }

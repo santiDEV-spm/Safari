@@ -1,6 +1,6 @@
 package com.santidev.safari;
 
-public class Animal {
+public abstract class Animal {
 
     //variables de clase
     public int age;
